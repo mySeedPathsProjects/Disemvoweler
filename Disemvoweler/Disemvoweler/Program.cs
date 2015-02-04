@@ -45,7 +45,11 @@ namespace Disemvoweler
             // Write out the various string results
             Console.WriteLine("Original: " + input);
             Console.WriteLine("Disemvoweled: " + disEmvoweledText);
-            Console.WriteLine("Vowels Removed: " + orderedVowels); 
+            Console.WriteLine("Vowels Removed: " + orderedVowels);
+            Console.WriteLine();
+
+    //*** REVIEW OTHER WAY OF WRITING TO CONSOLE IN DUSTIN'S COPY ***********
+
             // Return the Disemvoweled string as well for testing
             return disEmvoweledText;
         }
